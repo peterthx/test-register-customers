@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("Test call api k6 service", () => {
-  test("Check data return for api k6", async ({ request }) => {
+test.describe("Test call api service", () => {
+  test("Check data return for api ", async ({ request }) => {
     const res = await request.get(`https://api.restful-api.dev/objects/1`, {
       headers: {
         Accept: "application/json",
@@ -14,5 +14,6 @@ test.describe("Test call api k6 service", () => {
     expect(jsonData.name).toBe("Google Pixel 6 Pro");
     expect(jsonData.data.color).toBe("Cloudy White");
     expect(jsonData.data.capacity).toBe("128 GB");
+    
   });
 });
