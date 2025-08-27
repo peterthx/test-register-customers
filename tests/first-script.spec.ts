@@ -14,6 +14,5 @@ test.describe("Test call api service", () => {
     expect(jsonData.name).toBe("Google Pixel 6 Pro");
     expect(jsonData.data.color).toBe("Cloudy White");
     expect(jsonData.data.capacity).toBe("128 GB");
-    
   });
 });
