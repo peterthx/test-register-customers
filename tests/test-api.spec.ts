@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('GET list', async ({ request }) => {
+test('GET list', async ({ request }) => {
     const res = await request.get('http://srv946485.hstgr.cloud:8080/api/v1/customers');
     expect(res.ok()).toBeTruthy();
 
