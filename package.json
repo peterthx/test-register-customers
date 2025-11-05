@@ -1,23 +1,22 @@
 {
-  "name": "regression-test-pw",
+  "name": "test-register-customers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterthx/regression-test-pw.git"
+    "url": "git+https://github.com/peterthx/test-register-customers.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/peterthx/regression-test-pw/issues"
+    "url": "https://github.com/peterthx/test-register-customers/issues"
   },
-  "homepage": "https://github.com/peterthx/regression-test-pw#readme",
+  "homepage": "https://github.com/peterthx/test-register-customers#readme",
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.0"
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
   }
 }
