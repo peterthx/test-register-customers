@@ -3,7 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api/",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterthx/test-register-customers.git"
@@ -14,9 +24,5 @@
   "bugs": {
     "url": "https://github.com/peterthx/test-register-customers/issues"
   },
-  "homepage": "https://github.com/peterthx/test-register-customers#readme",
-  "devDependencies": {
-    "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.0"
-  }
+  "homepage": "https://github.com/peterthx/test-register-customers#readme"
 }
